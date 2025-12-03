@@ -32,6 +32,7 @@ export default function MainScreen({ navigation }) {
     setError('');
     return { base, dest, amt };
   };
+// Convert using FreeCurrencyAPI
 
   const convert = async () => {
     const data = validate();
