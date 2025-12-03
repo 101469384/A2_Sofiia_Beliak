@@ -19,6 +19,7 @@ export default function MainScreen({ navigation }) {
     const base = baseCurrency.trim().toUpperCase();
     const dest = destCurrency.trim().toUpperCase();
     const amt = parseFloat(amount);
+// Validate currency codes and amount
 
     if (!/^[A-Z]{3}$/.test(base) || !/^[A-Z]{3}$/.test(dest)) {
       setError('Currency codes must be 3-letter uppercase (e.g. CAD, USD).');
