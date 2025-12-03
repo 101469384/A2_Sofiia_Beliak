@@ -1,3 +1,5 @@
+// handles currency conversion logic and API call
+
 import React, { useState } from 'react';
 import { ActivityIndicator, Button, StyleSheet, Text, View } from 'react-native';
 import LabeledInput from '../components/LabeledInput';
