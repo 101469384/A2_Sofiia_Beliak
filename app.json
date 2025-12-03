@@ -1,0 +1,12 @@
+{
+    "expo": {
+      "name": "A2_SOFIIA_BELIAK",
+      "slug": "A2_SOFIIA_BELIAK",
+      "version": "1.0.0",
+      "entryPoint": "./App.js",
+      "orientation": "portrait",
+      "jsEngine": "hermes",
+      "assetBundlePatterns": ["**/*"]
+    }
+  }
+  
